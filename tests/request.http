@@ -1,0 +1,15 @@
+POST http://localhost:3000/blockchain
+Content-Type: application/json
+
+{
+  "nom": "Grace Hopper",
+  "somme": 4000
+}
+
+###
+GET http://localhost:3000/blockchain
+Accept: application/json
+
+{
+}
+###
